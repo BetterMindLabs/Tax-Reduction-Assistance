@@ -36,7 +36,7 @@ Financial data:
 {input_text}
     """
 
-    with st.spinner("Analyzing with..."):
+    with st.spinner("Analyzing..."):
         response = model.generate_content(prompt)
         ai_output = response.text
 
