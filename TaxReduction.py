@@ -30,7 +30,7 @@ if analyze_button:
     # Prompt for Gemini
     prompt = f"""
 You are an expert tax advisor. Analyze the following financial data and suggest possible tax deductions
-and legal ways to reduce taxable income in India for FY 2025-26. Provide clear actionable steps.
+and legal ways to reduce taxable income in USA for FY 2025-26. Provide clear actionable steps.
 Keep the output short and relevant to the US tax laws.
 Financial data:
 {input_text}
